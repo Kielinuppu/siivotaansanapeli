@@ -110,10 +110,10 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     justify-content: center;
-    margin: 10px auto; /* auto marginit keskittävät */
+    margin: 10px auto; 
     width: 100%;
     max-width: 500px;
-    place-items: center; /* keskittää itemit soluissa */
+    place-items: center; 
 }
 
        .thumbnail {
@@ -163,9 +163,6 @@
     #thumbnailContainer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: 
-            "a a a"
-            "b b b";
         gap: 5px;
         max-width: 250px;
     }
@@ -174,12 +171,9 @@
         width: 75px;
         height: 75px;
     }
-
-    .thumbnail:nth-last-child(1) {
-        grid-column: 2;
-    }
 }
-   </style>
+
+</style>
 </head>
 <body>
    <div class="container">
